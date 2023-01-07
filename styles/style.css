@@ -11,7 +11,7 @@ nav{
     margin: 50px 200px;
 }
 .nav-title{
-    font-size: 40px;
+    font-size: 45px;
 }
 .text-highlight{
     color: #FD6E0A;
@@ -25,7 +25,7 @@ nav ul li{
     list-style: none;
     margin-left: 50px;
 }
-.hire-btn{
+.btn-primary{
     padding: 10px 20px;
     background: #FD6E0A;
     border: 0;
@@ -33,4 +33,33 @@ nav ul li{
     height: 50px;
     font-size: 20px;
     color: white;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 300;
+    color: #474747;
+}
+.banner-title{
+    font-size: 80px;
+    color: #181818;
+}
+.banner-description{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.btn-contact{
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;;
+    color: #FD6E0A;
 }
