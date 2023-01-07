@@ -4,10 +4,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* Header and navigation styles */
+nav{
+    display: flex;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
 }
 .text-highlight{
     color: #FD6E0A;
+}
+nav ul{
+    font-weight: bold;
+}
+nav li{
+    list-style: none;
 }
