@@ -5,8 +5,9 @@
 }
 /* Header and navigation styles */
 .nav-title{
-    font-weight: 600px;
+    font-weight: 800;
+    font-size: 45px;
 }
-.hilight{
+.text-highlight{
     color: #FD6E0A;
 }
