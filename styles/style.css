@@ -3,12 +3,19 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.banner-bg{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 /* Header and navigation styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding-top: 50px;
 }
 .nav-title{
     font-size: 45px;
