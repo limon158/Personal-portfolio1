@@ -6,17 +6,29 @@
 /* Header and navigation styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
-    font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
 }
 .text-highlight{
     color: #FD6E0A;
 }
 nav ul{
-    font-weight: bold;
+    display: flex;
+    font-size: 16px;
 }
 nav li{
     list-style: none;
+    margin-left: 50px;
+}
+.hire-btn{
+    width: 100px;
+    height: 40px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
 }
