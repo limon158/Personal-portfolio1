@@ -76,9 +76,11 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section{
+  margin-top: 130px;
+}
 /* About section styles */
 .about {
-  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -112,9 +114,6 @@ main {
   color: #474747;
 }
 /* What i do section */
-.what-i-do {
-  margin-top: 130px;
-}
 .what-i-do .section-description {
   text-align: center;
   font-weight: 400;
