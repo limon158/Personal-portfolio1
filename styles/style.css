@@ -93,4 +93,6 @@ main {
 .section-description {
   color: #757575;
   font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
 }
