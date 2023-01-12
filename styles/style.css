@@ -15,9 +15,9 @@
   --dark-5: #d1d1d1;
   --dark-6: #e8e8e8;
   --dark-7: #f3f3f3;
-  --title-font: 10vw;
-  --subtitle-font: 8vw;
-  --primary-font: 5vw;
+  --title-font: 8vw;
+  --subtitle-font: 5vw;
+  --primary-font: 4vw;
 }
 .banner-bg {
   background: var(--banner-bg);
@@ -97,7 +97,7 @@ section {
 }
 /* About section styles */
 .about {
-  background: #fff8f3;
+  background: var(--banner-bg);
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
@@ -108,11 +108,11 @@ section {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 35px;
-  color: #181818;
+  color: var(--title);
 }
 .section-description {
   font-weight: 400;
-  color: #757575;
+  color: var(--paragraph);
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -123,18 +123,18 @@ section {
 .about .info-title {
   font-size: 20px;
   font-weight: 400;
-  color: #757575;
+  color: var(--paragraph);
 }
 .about .info-description {
   font-size: 20px;
   font-weight: 700;
-  color: #474747;
+  color: var(--subtitle);
 }
 /* What i do section */
 .what-i-do .section-description {
   text-align: center;
   font-weight: 400;
-  color: #757575;
+  color: var(--paragraph);
   font-size: 18px;
   margin-bottom: 30px;
   padding: 0 150px;
@@ -259,6 +259,53 @@ textarea {
     }
     .banner img{
       width: 100%;
+    }
+    main{
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    section{
+      margin-top: 0%;
+    }
+    .about{
+      background-color: var(--white);
+      padding: 10%;
+    }
+    .section-title {
+      margin-bottom: 5vh;
+      font-size: var(--title-font);
+    }
+    .section-description {
+      font-weight: 400;
+      font-size: var(--primary-font);
+      margin-bottom: 5vh;
+    }
+    .about-info-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .about .info-title {
+      font-size: var(--primary-font);
+    }
+    .about .info-description {
+      font-size: var(--primary-font);
+    }
+    .what-i-do .section-description {
+      font-size: var(--primary-font);
+      margin-bottom: 5vh;
+      padding: 0 10%;
+    }
+    .what-i-do .section-title {
+      margin-bottom: 5vh;
+      font-size: var(--title-font);
+    }
+    .skills-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .skill {
+      margin: 0 10%;
+      padding: 30px;
     }
   
 }
