@@ -343,20 +343,20 @@ textarea {
       margin-top: 5vh;
     }
     .contact input[type="text"],
-input[type="email"],
-textarea {
-  margin-bottom: 5vh;
-  width: 90%;
-  padding: 10px;
-}
-.footer{
-  width: 100%;
-  height: 5vh;
-}
-.footer-message{
-  font-size: var(--primary-font);
-}
-    
+      input[type="email"],
+      textarea {
+      margin-bottom: 5vh;
+      width: 90%;
+      padding: 10px;
+    }
+    .footer{
+      width: 100%;
+      height: 5vh;
+    }
+    .footer-message{
+      font-size: var(--primary-font);
+    }
+        
   
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
