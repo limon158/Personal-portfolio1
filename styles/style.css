@@ -6,6 +6,8 @@
 /* Variable Declaration */
 :root {
   --banner-bg: #fff8f3;
+  --footer-bg: #0B0D17;
+  --footer-message: #FF5959;
   --highlight: #fd6e0a;
   --white: #ffffff;
   --title: #181818;
@@ -18,6 +20,7 @@
   --title-font: 8vw;
   --subtitle-font: 5vw;
   --primary-font: 4vw;
+  --footer-font: font-family: 'Lobster', cursive;
 }
 .banner-bg {
   background: var(--banner-bg);
@@ -206,7 +209,7 @@ section {
 .contact {
   display: flex;
   gap: 100px;
-  background: #fff8f3;
+  background: var(--banner-bg);
   padding: 130px 200px;
 }
 .contact input[type="text"],
@@ -221,8 +224,19 @@ textarea {
   text-decoration: none;
   margin-right: 30px;
 }
-.hide {
-  display: none;
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: var(--footer-bg);
+  margin-top: 0;
+}
+.footer-message{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: var(--footer-message);
 }
 @media screen and (max-width: 576px) {
   nav{
@@ -307,6 +321,42 @@ textarea {
       margin: 0 10%;
       padding: 30px;
     }
+    .resume-content {
+      flex-direction: column;
+      padding: 10%;
+    }
+    .resume .title {
+      font-size: var(--subtitle-font);
+      margin-top: 0 5vh;
+    }
+    .resume .subtitle {
+      font-size: var(--primary-font);
+      margin-bottom: 5vh;
+    }
+    .resume .description {
+      font-size: var(--primary-font);
+      margin-bottom: 5vh;
+    }
+    .contact {
+      flex-direction: column;
+      padding: 10%;
+      margin-top: 5vh;
+    }
+    .contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 5vh;
+  width: 90%;
+  padding: 10px;
+}
+.footer{
+  width: 100%;
+  height: 5vh;
+}
+.footer-message{
+  font-size: var(--primary-font);
+}
+    
   
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
